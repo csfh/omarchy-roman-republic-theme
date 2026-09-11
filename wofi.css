@@ -1,11 +1,11 @@
-@define-color bg #060507;
-@define-color fg #F8EAC4;
-@define-color gray1 #8f7446;
-@define-color gray2 #6a676d;
-@define-color gray3 #6e8bcc;
-@define-color gray4 #ebd39e;
-@define-color gray5 #a06864;
-@define-color fg_bright #ffeb9e;
+@define-color bg #f6efe0;
+@define-color fg #2B241C;
+@define-color gray1 #6e5a32;
+@define-color gray2 #7a7166;
+@define-color gray3 #3d5c9a;
+@define-color gray4 #8a5f12;
+@define-color gray5 #8e4a48;
+@define-color fg_bright #1a1612;
 
 window {
     background-color: @bg;
@@ -20,7 +20,7 @@ input {
 
 input:selected {
     background-color: @gray1;
-    color: @fg_bright;
+    color: @bg;
 }
 
 #entry {
@@ -32,7 +32,7 @@ input:selected {
 
 #entry:selected {
     background-color: @gray1;
-    color: @fg_bright;
+    color: @bg;
 }
 
 scrollbar {
