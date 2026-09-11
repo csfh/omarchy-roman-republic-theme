@@ -1,93 +1,83 @@
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#060507"
+theme[main_bg]="#f6efe0"
 
 # Main text color
-theme[main_fg]="#F8EAC4"
+theme[main_fg]="#2B241C"
 
 # Title color for boxes
-theme[title]="#F8EAC4"
+theme[title]="#2B241C"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#6e8bcc"
+theme[hi_fg]="#3d5c9a"
 
-# Background color of selected item in processes box. #1f1e20 maps to
-# the foreground role in aether (terminal selection wants inverted contrast),
-# which renders as plain white on dark themes - indistinguishable from the
-# main text. #1f1e20 gives a subtle highlight that still reads on a
-# dark background and is invisible-but-harmless on light backgrounds.
-theme[selected_bg]="#1f1e20"
+# Background color of selected item in processes box
+theme[selected_bg]="#e4d9c4"
 
-# Foreground color of selected item in processes box. Use #F8EAC4 so
-# the row text stays readable on the lighter_bg highlight; the previous
-# #6e8bcc produced low-contrast blue-on-white in dark themes.
-theme[selected_fg]="#F8EAC4"
+# Foreground color of selected item in processes box
+theme[selected_fg]="#2B241C"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#6a676d"
+theme[inactive_fg]="#7a7166"
 
-# Color of text appearing on top of graphs, i.e uptime and current network graph scaling.
-# #f9edcd caps at #ffffff when the foreground is already pure white, so we
-# just bind it to #F8EAC4 directly.
-theme[graph_text]="#F8EAC4"
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="#2B241C"
 
-# Background color of the percentage meters. Same fix as selected_bg - the
-# previous #1f1e20 collapsed to the main fg.
-theme[meter_bg]="#1f1e20"
+# Background color of the percentage meters
+theme[meter_bg]="#e4d9c4"
 
-# Misc colors for processes box including mini cpu graphs, details memory graph and details status text.
-# Use #6379aa for a distinct accent instead of #f9edcd which capped to white.
-theme[proc_misc]="#6379aa"
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#4a628c"
 
 # CPU, Memory, Network, Proc box outline colors
-theme[cpu_box]="#a06864"
-theme[mem_box]="#8f7446"
-theme[net_box]="#ab6f66"
-theme[proc_box]="#6e8bcc"
+theme[cpu_box]="#8e4a48"
+theme[mem_box]="#6e5a32"
+theme[net_box]="#a14b42"
+theme[proc_box]="#3d5c9a"
 
 # Box divider line and small boxes line color
-theme[div_line]="#6a676d"
+theme[div_line]="#7a7166"
 
 # Temperature graph color (Green -> Yellow -> Red)
-theme[temp_start]="#8f7446"
-theme[temp_mid]="#ebd39e"
-theme[temp_end]="#ab6f66"
+theme[temp_start]="#6e5a32"
+theme[temp_mid]="#8a5f12"
+theme[temp_end]="#a14b42"
 
 # CPU graph colors (Teal -> Blue -> Purple)
-theme[cpu_start]="#6379aa"
-theme[cpu_mid]="#6e8bcc"
-theme[cpu_end]="#a06864"
+theme[cpu_start]="#4a628c"
+theme[cpu_mid]="#3d5c9a"
+theme[cpu_end]="#8e4a48"
 
 # Mem/Disk free meter
-theme[free_start]="#a06864"
-theme[free_mid]="#6e8bcc"
-theme[free_end]="#6379aa"
+theme[free_start]="#8e4a48"
+theme[free_mid]="#3d5c9a"
+theme[free_end]="#4a628c"
 
 # Mem/Disk cached meter
-theme[cached_start]="#6e8bcc"
-theme[cached_mid]="#6379aa"
-theme[cached_end]="#a06864"
+theme[cached_start]="#3d5c9a"
+theme[cached_mid]="#4a628c"
+theme[cached_end]="#8e4a48"
 
 # Mem/Disk available meter
-theme[available_start]="#ebd39e"
-theme[available_mid]="#ab6f66"
-theme[available_end]="#ab6f66"
+theme[available_start]="#8a5f12"
+theme[available_mid]="#a14b42"
+theme[available_end]="#a14b42"
 
 # Mem/Disk used meter (Green -> Teal -> Blue)
-theme[used_start]="#8f7446"
-theme[used_mid]="#6379aa"
-theme[used_end]="#6e8bcc"
+theme[used_start]="#6e5a32"
+theme[used_mid]="#4a628c"
+theme[used_end]="#3d5c9a"
 
 # Download graph colors
-theme[download_start]="#ebd39e"
-theme[download_mid]="#ab6f66"
-theme[download_end]="#ab6f66"
+theme[download_start]="#8a5f12"
+theme[download_mid]="#a14b42"
+theme[download_end]="#a14b42"
 
 # Upload graph colors (Green -> Teal -> Blue)
-theme[upload_start]="#8f7446"
-theme[upload_mid]="#6379aa"
-theme[upload_end]="#6e8bcc"
+theme[upload_start]="#6e5a32"
+theme[upload_mid]="#4a628c"
+theme[upload_end]="#3d5c9a"
 
 # Process box color gradient for threads, mem and cpu usage
-theme[process_start]="#6379aa"
-theme[process_mid]="#6e8bcc"
-theme[process_end]="#a06864"
+theme[process_start]="#4a628c"
+theme[process_mid]="#3d5c9a"
+theme[process_end]="#8e4a48"

@@ -4,7 +4,7 @@
 
 # Omarchy Roman Republic Theme
 
-An Omarchy theme for dark terminals and marble light. Roman Republic sits on near-black stone. Cream is the ink. Crimson banners and gold laurel mark the rest.
+An Omarchy light theme. Travertine is the ground. Ink is the letter. Crimson banners and gold laurel mark the rest.
 
 ## Install
 
@@ -22,14 +22,14 @@ https://github.com/csfh/omarchy-roman-republic-theme
 
 | Role | Hex |
 | --- | --- |
-| Background | `#060507` |
-| Foreground | `#F8EAC4` |
-| Accent | `#6e8bcc` |
-| Red | `#ab6f66` |
-| Green | `#8f7446` |
-| Yellow | `#ebd39e` |
-| Magenta | `#a06864` |
-| Cyan | `#6379aa` |
+| Background | `#f6efe0` |
+| Foreground | `#2B241C` |
+| Accent | `#3d5c9a` |
+| Red | `#a14b42` |
+| Green | `#6e5a32` |
+| Yellow | `#8a5f12` |
+| Magenta | `#8e4a48` |
+| Cyan | `#4a628c` |
 
 ## Included
 
