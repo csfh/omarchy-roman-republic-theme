@@ -4,7 +4,7 @@
 
 # Omarchy Roman Republic Theme
 
-An Omarchy light theme. Travertine is the ground. Ink is the letter. Crimson banners and gold laurel mark the rest.
+An Omarchy light theme. Tent canvas is the ground. Ink is the letter. Tyrian purple, sagum red, and gold mark the rest.
 
 ## Install
 
@@ -22,14 +22,14 @@ https://github.com/csfh/omarchy-roman-republic-theme
 
 | Role | Hex |
 | --- | --- |
-| Background | `#f6efe0` |
-| Foreground | `#2B241C` |
-| Accent | `#3d5c9a` |
-| Red | `#a14b42` |
-| Green | `#6e5a32` |
-| Yellow | `#8a5f12` |
-| Magenta | `#8e4a48` |
-| Cyan | `#4a628c` |
+| Background | `#f0e4c8` |
+| Foreground | `#2a2218` |
+| Accent | `#6b2c58` |
+| Red | `#a83228` |
+| Green | `#5a6434` |
+| Yellow | `#9a6b14` |
+| Magenta | `#7a2e5a` |
+| Cyan | `#3d6b62` |
 
 ## Included
 
